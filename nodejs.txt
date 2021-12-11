@@ -27,7 +27,6 @@ Set of programming instructons for web based application
 Fetch data from outside sources in response to a client request and
 Store data on other apps
 Clients : Web browse/ api/ CLIENT
-
 HTTP Request: text string -> URI(location of server)+ Verb
 
 

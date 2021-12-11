@@ -37,3 +37,9 @@ DELETE: Used to remove a resource from the server
 
 HTTP Response: Status code+ Message body
 Message body is displayed on browser
+Datatypes: Number String Boolean Undefined null regexp
+Buffer(used to store binary data)
+
+Functions: Similar to class in Js. 
+Node has facility to process info like id, achitrcture, version , platform, version using process obj
+Used for exception handling

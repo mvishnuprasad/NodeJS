@@ -1,4 +1,18 @@
 //Theory
+NodeJS : Opensource cp runtime evironment of dev and network apps of NodeJS
+Js engine : Js code to machine code 
+V8 engine can run stande=alone or can be embed into any c++ application
+Node JS build on V8 Engine
+NodeJS= Runtime env+Js library on
+NodeJS is free from  deadlocking(Sitauation where a set of process are blocked because each process is holding a res and waiting for res aquired by other process)
+Task  performed based on events. Its asynchronous. Never waits for an api to return data to the
+Notification mechanism of events of nodejs helps to receive events from previous api calls.
+NodeJs is a single threaded app but support concurency by events and callbacks are
+every api of node is async 
+uses observer pattern . keeps and event loop , whenever a task a completed it fires corresponding evets which can uses event listener to execute
+IO operations are non blocking. after you pass I/p server wont block resources until getting op, so we can move to another ip
+
+
 Application Server:
 An app inside a server that contains the logic about the applicationhow to responds to various methods of the applicationbased on http request and URI request
 HTTP method+ URI = router.method

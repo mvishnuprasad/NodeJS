@@ -9,3 +9,5 @@ console.log(`Process working dir ${process.cwd()}`)
 
 //Console is a part of window object in browser and here in 
 //node it is a part of global object
+var exportedModule = require("./messenger")
+exportedModule.printer("Vishnu from another module")

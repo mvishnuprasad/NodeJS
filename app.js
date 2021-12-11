@@ -12,4 +12,21 @@ console.log(`Process working dir ${process.cwd()}`)
 var exportedModule = require("./messenger");
 exportedModule.printer("Vishnu from another module");
 const chalk = require('chalk');
-console.log(chalk.blue('Hello world!'));
+console.log(chalk.yellow('Hello my world!'));
+const os = require("os");
+console.log(os.homedir());
+console.log(os.platform());
+const EventEmitter = require("events");
+const events = new EventEmitter();
+
+events.on("eventName",()=>{
+    console.log("Raining");
+})
+events.on("event2",()=>{
+    console.log("Event  num 2");
+})
+events.emit("event2");
+events.emit("eventName");
+var fs = require("fs");
+var ans = fs.readdirSync("./");
+console.log(ans)

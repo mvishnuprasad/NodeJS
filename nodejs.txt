@@ -58,3 +58,8 @@ Modules are classified int core , third party and node
 
 Core : pre installed with nodeJs
 Eg: of 3rd party modules Express and Mongo
+Core modules
+
+Combined in bin and load automatically when node starts
+os: gives info about OS
+Always use Async method

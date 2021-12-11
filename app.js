@@ -29,4 +29,8 @@ events.emit("event2");
 events.emit("eventName");
 var fs = require("fs");
 var ans = fs.readdirSync("./");
-console.log(ans)
+console.log(ans);
+var ans = fs.readdir("./",(error,result)=>{
+    if (error===true) console.log(error);
+    else console.log(result)
+});

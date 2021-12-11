@@ -30,7 +30,35 @@ events.emit("eventName");
 var fs = require("fs");
 var ans = fs.readdirSync("./");
 console.log(ans);
-var ans = fs.readdir("./",(error,result)=>{
-    if (error===true) console.log(error);
+fs.readdir("./",(error,result)=>{
+    if (error) console.log(error);
     else console.log(result)
 });
+
+var http= require("http");
+var server = http.createServer(function(request, response){
+    // response.write("Welcome to server");
+    // response.end();
+    
+//listen to a port while server is running
+
+//when a get req send to this server through a port 3333
+//server responds back with a msg
+
+if (request.url==="/"){
+    response.write("Welcome");
+    response.end();
+}
+if (request.url==="/login"){
+    response.write("Login Page");
+    response.end();
+}
+else{
+    response.write("Doesnt exist")
+    response.end();
+}
+
+
+});
+server.listen(33321);
+console.log("3332d1")

@@ -62,4 +62,7 @@ Core modules
 
 Combined in bin and load automatically when node starts
 os: gives info about OS
-Always use Async method
+Always use Async method.
+HTTP Module provides  classes and fns to create an app server
+
+Request-----> Port------>Server

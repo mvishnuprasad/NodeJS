@@ -43,3 +43,18 @@ Buffer(used to store binary data)
 Functions: Similar to class in Js. 
 Node has facility to process info like id, achitrcture, version , platform, version using process obj
 Used for exception handling
+//Scope of obj and properties are limited 
+
+NodeJS Modules
+______________
+
+As app gets bigger , we will split into multiple files 
+called modules. A module contains a class/lib of fns. 
+One script is one module. Each file is treated as a seperate module
+Module helps to encapsulation of code into manageable chunks
+Anything defined inside module is private to that module only
+
+Modules are classified int core , third party and node
+
+Core : pre installed with nodeJs
+

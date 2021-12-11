@@ -1,0 +1,26 @@
+//Theory
+Application Server:
+An app inside a server that contains the logic about the applicationhow to responds to various methods of the applicationbased on http request and URI request
+HTTP method+ URI = router.method
+matching a rout based on request = routing
+
+Database:
+
+Interface to save data in a persistent way.
+Avoid server crashes by reducing load on main memory of CPU and memory
+API: Application programming Interface
+Set of programming instructons for web based application
+Fetch data from outside sources in response to a client request and
+Store data on other apps
+Clients : Web browse/ api/ CLIENT
+
+HTTP Request: text string -> URI(location of server)+ Verb
+
+
+GET : Asks for the resource to be returned unchanges, data is returnedget embedded with headers and
+POST: USed to submit an entity often causing a change in state of server 
+PUT: Used to update(editing) 
+DELETE: Used to remove a resource from the server
+
+HTTP Response: Status code+ Message body
+Message body is displayed on browser
